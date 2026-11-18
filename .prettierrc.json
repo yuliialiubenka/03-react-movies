@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "quoteProps": "as-needed",
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "objectWrap": "preserve",
+    "arrowParens": "avoid",
+    "singleAttributePerLine": false,
+    "endOfLine": "lf",
+    "proseWrap": "always",
+    "htmlWhitespaceSensitivity": "css",
+    "embeddedLanguageFormatting": "auto",
+    "overrides": [
+        {
+            "files": ["package.json", "package-lock.json"],
+            "options": { "tabWidth": 2 }
+        }
+    ]
+}
